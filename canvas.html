@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html class="scripts-not-loaded" dir="ltr"   lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700&amp;subset=latin-ext&amp;display=swap" rel="stylesheet">
+    <script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  <script>
+//<![CDATA[
+
+!function(){
+  function get(u){document.write('<scr'+'ipt src="'+ u +'"></sc'+'ript>')}
+  var o,s,v;
+  if (!(window.Promise && Object.assign && Object.values && [].find && [].includes && (o={},s=Symbol(),v={},o[s]=v,o[s]===v) && (function f(){}).bind().name==='bound f')) {
+    get("https://du11hjcvx0uqb.cloudfront.net/br/dist/ie11-polyfill-5cf07f7aab.js");
+  }
+  if (!window.fetch) get("https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js");
+}();
+      
+//]]>
+</script>
+  <script>window.fetchIgnoredByNewRelic = window.fetch</script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/images/favicon-e10d657a73.ico" />
+  <link rel="apple-touch-icon" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/images/apple-touch-icon-585e5d997d.png" />
+  <link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/4c897ada18069934b25b1cdc02cc65a1/variables-8391c84da435c9cfceea2b2b3317ff66.css" />
+  <link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/new_styles_normal_contrast/bundles/common-494d9d8c74.css" />
+  <meta name="apple-itunes-app" content="app-id=480883488" />
+<link rel="manifest" href="/web-app-manifest/manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4a0d67">
+  <link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/new_styles_normal_contrast/bundles/react_todo_sidebar-c3d01d6a66.css" />
+<link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/new_styles_normal_contrast/bundles/dashboard-a085ab90c2.css" />
+<link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/new_styles_normal_contrast/bundles/dashboard_card-c3e461ecf2.css" />
+  
+  <script>
+    function _earlyClick(e){
+      var c = e.target
+      while (c && c.ownerDocument) {
+        if (c.getAttribute('href') == '#' || c.getAttribute('data-method')) {
+          e.preventDefault()
+          (_earlyClick.clicks = _earlyClick.clicks || []).push(c)
+          break
+        }
+        c = c.parentNode
+      }
+    }
+    document.addEventListener('click', _earlyClick)
+  </script>
+  <script src="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/4c897ada18069934b25b1cdc02cc65a1/variables-8391c84da435c9cfceea2b2b3317ff66.js" defer="defer"></script>
+
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/Los_Angeles-d9cac65c52.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/en_US-80a0ce259b.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/main-e-a377e0df85.js" as="script" type="text/javascript"><script src="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/Los_Angeles-d9cac65c52.js" defer="defer"></script>
+<script src="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/en_US-80a0ce259b.js" defer="defer"></script>
+<script src="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/main-e-a377e0df85.js" defer="defer"></script><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/1-c-60fe57799b.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/2-c-10903610f1.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/3-c-4c1469ef0e.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/4-c-eb1bea7c14.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/5-c-2ac6bf4fee.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/6-c-dbab1135b3.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/8-c-a0b0e6d0b9.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/9-c-6b14c8f933.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/10-c-4644786f14.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/11-c-12218013cd.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/12-c-1240ea81f0.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/13-c-69fbd86abf.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/17-c-2fb20eb051.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/16-c-02d65e055c.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/22-c-82f7a1cd5f.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/24-c-c0bdd6f427.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/27-c-785364689f.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/30-c-be801c9e95.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/31-c-3dfcbcd7c0.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/34-c-c0ed4f2ce5.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/38-c-b0180cb9e0.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/50-c-d659c9d14c.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/53-c-c263a1fab8.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/64-c-96c1b18671.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/56-c-b13c6d2c53.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/69-c-5986f878e2.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/97-c-d99158fad8.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/95-c-299b581aef.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/dashboard-c-785eb650ae.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/214-c-3646aa31d2.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/navigation_header-c-81c261e3f4.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('dashboard');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+    <link rel="alternate" type="application/atom+xml" title="User Atom Feed (All Courses)" href="/feeds/users/user_93wJkyz51IEQIGsPAVg5n5C9MjGYHLZu2iTrOJ44.atom" />
+  <title>Dashboard</title>
+    <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', "UA-9138420-1", 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+<body class="with-right-side  primary-nav-expanded context-user_44483">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+
+<ul id="flash_message_holder"></ul>
+<div id="flash_screenreader_holder"></div>
+
+<div id="application" class="ic-app">
+  
+  <header id="header" class="ic-app-header no-print ">
+    <a href="#content" id="skip_navigation_link">Skip To Content</a>
+      <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+        <div class="ic-app-header__logomark-container">
+          <a href="https://sequoia.instructure.com/" class="ic-app-header__logomark">
+            <span class="screenreader-only">Dashboard</span>
+          </a>
+        </div>
+        <ul id="menu" class="ic-app-header__menu-list">
+            <li class="menu-item ic-app-header__menu-list-item ">
+              <a id="global_nav_profile_link" role="button" href="/profile" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <div class="ic-avatar ">
+                    <img src="https://sequoia.instructure.com/images/messages/avatar-50.png" alt="Tristan Perry" />
+                  </div>
+                </div>
+                <div class="menu-item__text">
+                  Account
+                </div>
+              </a>
+            </li>
+          <li class="ic-app-header__menu-list-item  ic-app-header__menu-list-item--active">
+            <a id="global_nav_dashboard_link" href="https://sequoia.instructure.com/" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z" /></svg>
+
+              </div>
+              <div class="menu-item__text">Dashboard</div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_courses_link" role="button" href="/courses" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"/></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Courses
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_calendar_link" href="/calendar" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"/></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Calendar
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_conversations_link" href="/conversations" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container">
+                <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"/></svg>
+</span>
+                <span class="menu-item__badge" style="display: none">0</span>
+              </div>
+              <div class="menu-item__text">
+                Inbox
+              </div>
+            </a>
+          </li>
+            
+
+
+          <li class="ic-app-header__menu-list-item">
+           <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="http://help.instructure.com/">
+              <div class="menu-item-icon-container" role="presentation">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"/></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Help
+              </div>
+</a>          </li>
+        </ul>
+      </div>
+      <div class="ic-app-header__secondary-navigation">
+        <ul class="ic-app-header__menu-list">
+          <li class="menu-item ic-app-header__menu-list-item">
+            <button
+              id="primaryNavToggle"
+              class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle"
+              aria-label="Minimize global navigation"
+              title="Minimize global navigation"
+            >
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"/>
+</svg>
+
+              </div>
+            </button>
+          </li>
+        </ul>
+      </div>
+    <div id="global_nav_tray_container"></div>
+  </header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="about:blank" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+
+
+<div id="dashboard" class="ic-dashboard-app">
+  
+  
+
+
+
+
+
+
+
+
+
+  <div id="dashboard_header_container" class="ic-Dashboard-header">
+    <h1 class="ic-Dashboard-header__title hidden-phone">Dashboard</h1>
+  </div>
+    <div id="dashboard-planner" class="StudentPlanner__Container" style="display: none"></div>
+  <div
+    id="dashboard-activity"
+    class="ic-Dashboard-Activity"
+    style="display: none"
+  >
+    <!-- this will be populated via xhr from UsersController::dashboard_stream_items when someone selects the stream-items dashboard option -->
+  </div>
+
+    <script>
+//<![CDATA[
+(window.prefetched_xhrs = (window.prefetched_xhrs || {}))["/api/v1/dashboard/dashboard_cards"] = fetch("/api/v1/dashboard/dashboard_cards", {"credentials":"same-origin","headers":{"Accept":"application/json+canvas-string-ids, application/json"}})
+//]]>
+</script>
+  <script>
+//<![CDATA[
+(window.prefetched_xhrs = (window.prefetched_xhrs || {}))["https://sequoia.instructure.com/dashboard-sidebar"] = fetch("https://sequoia.instructure.com/dashboard-sidebar", {"credentials":"same-origin","headers":{"Accept":"application/json+canvas-string-ids, application/json"}})
+//]]>
+</script>
+<div id="DashboardCard_Container" style="display: block">
+  <div class="ic-DashboardCard__box">
+      <div class="ic-DashboardCard">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ic-DashboardCard__placeholder-svg" version="1.1" x="0" y="0" viewBox="-1087 618 260 254" xml:space="preserve">
+          <title>Empty Card</title>
+          <g class="ic-DashboardCard__placeholder-animates">
+            <path d="M-1087 618h260v126h-260V618z"/>
+            <rect x="-1062" y="759.5" class="st0" width="184" height="16"/>
+            <rect x="-1062" y="785.5" class="st0" width="106" height="9"/>
+            <circle cx="-1054" cy="842.5" r="8"/>
+            <circle cx="-989" cy="842.5" r="8"/>
+            <circle cx="-924" cy="842.5" r="8"/>
+            <circle cx="-859" cy="842.5" r="8"/>
+          </g>
+        </svg>
+      </div>
+      <div class="ic-DashboardCard">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ic-DashboardCard__placeholder-svg" version="1.1" x="0" y="0" viewBox="-1087 618 260 254" xml:space="preserve">
+          <title>Empty Card</title>
+          <g class="ic-DashboardCard__placeholder-animates">
+            <path d="M-1087 618h260v126h-260V618z"/>
+            <rect x="-1062" y="759.5" class="st0" width="184" height="16"/>
+            <rect x="-1062" y="785.5" class="st0" width="106" height="9"/>
+            <circle cx="-1054" cy="842.5" r="8"/>
+            <circle cx="-989" cy="842.5" r="8"/>
+            <circle cx="-924" cy="842.5" r="8"/>
+            <circle cx="-859" cy="842.5" r="8"/>
+          </g>
+        </svg>
+      </div>
+      <div class="ic-DashboardCard">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ic-DashboardCard__placeholder-svg" version="1.1" x="0" y="0" viewBox="-1087 618 260 254" xml:space="preserve">
+          <title>Empty Card</title>
+          <g class="ic-DashboardCard__placeholder-animates">
+            <path d="M-1087 618h260v126h-260V618z"/>
+            <rect x="-1062" y="759.5" class="st0" width="184" height="16"/>
+            <rect x="-1062" y="785.5" class="st0" width="106" height="9"/>
+            <circle cx="-1054" cy="842.5" r="8"/>
+            <circle cx="-989" cy="842.5" r="8"/>
+            <circle cx="-924" cy="842.5" r="8"/>
+            <circle cx="-859" cy="842.5" r="8"/>
+          </g>
+        </svg>
+      </div>
+      <div class="ic-DashboardCard">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ic-DashboardCard__placeholder-svg" version="1.1" x="0" y="0" viewBox="-1087 618 260 254" xml:space="preserve">
+          <title>Empty Card</title>
+          <g class="ic-DashboardCard__placeholder-animates">
+            <path d="M-1087 618h260v126h-260V618z"/>
+            <rect x="-1062" y="759.5" class="st0" width="184" height="16"/>
+            <rect x="-1062" y="785.5" class="st0" width="106" height="9"/>
+            <circle cx="-1054" cy="842.5" r="8"/>
+            <circle cx="-989" cy="842.5" r="8"/>
+            <circle cx="-924" cy="842.5" r="8"/>
+            <circle cx="-859" cy="842.5" r="8"/>
+          </g>
+        </svg>
+      </div>
+      <div class="ic-DashboardCard">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ic-DashboardCard__placeholder-svg" version="1.1" x="0" y="0" viewBox="-1087 618 260 254" xml:space="preserve">
+          <title>Empty Card</title>
+          <g class="ic-DashboardCard__placeholder-animates">
+            <path d="M-1087 618h260v126h-260V618z"/>
+            <rect x="-1062" y="759.5" class="st0" width="184" height="16"/>
+            <rect x="-1062" y="785.5" class="st0" width="106" height="9"/>
+            <circle cx="-1054" cy="842.5" r="8"/>
+            <circle cx="-989" cy="842.5" r="8"/>
+            <circle cx="-924" cy="842.5" r="8"/>
+            <circle cx="-859" cy="842.5" r="8"/>
+          </g>
+        </svg>
+      </div>
+      <div class="ic-DashboardCard">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ic-DashboardCard__placeholder-svg" version="1.1" x="0" y="0" viewBox="-1087 618 260 254" xml:space="preserve">
+          <title>Empty Card</title>
+          <g class="ic-DashboardCard__placeholder-animates">
+            <path d="M-1087 618h260v126h-260V618z"/>
+            <rect x="-1062" y="759.5" class="st0" width="184" height="16"/>
+            <rect x="-1062" y="785.5" class="st0" width="106" height="9"/>
+            <circle cx="-1054" cy="842.5" r="8"/>
+            <circle cx="-989" cy="842.5" r="8"/>
+            <circle cx="-924" cy="842.5" r="8"/>
+            <circle cx="-859" cy="842.5" r="8"/>
+          </g>
+        </svg>
+      </div>
+  </div>
+
+</div>
+
+</div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+                <div class="placeholder"></div>
+
+          </aside>
+        </div>
+      </div>
+    </div>
+      
+<footer role="contentinfo" id="footer" class="ic-app-footer">
+  <a href="http://www.instructure.com" class="footer-logo ic-app-footer__logo-link">
+    <span class="screenreader-only">
+      By Instructure
+    </span>
+  </a>
+  <div id="footer-links" class="ic-app-footer__links">
+    <a href="https://sequoia.instructure.com/privacy_policy">Privacy Policy</a>
+    <span id="terms_of_service_footer_link" class="terms_of_service_link terms-of-service__link"></span>
+<a href="http://facebook.com/instructure">Facebook</a>
+<a href="http://twitter.com/instructure">Twitter</a>
+
+  </div>
+</footer>
+
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">46df7701-1577-4fb2-8e30-c7412d8e569f</div>
+    </div>
+  <div id='aria_alerts' class='hide-text affix' role="alert" aria-live="assertive"></div>
+  <div id='StudentTray__Container'></div>
+  
+
+<script>
+  INST = {"environment":"production","kalturaSettings":{"domain":"nv.instructuremedia.com","resource_domain":"nv.instructuremedia.com","rtmp_domain":"iad.rtmp.instructuremedia.com","partner_id":"9","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"disableGooglePreviews":true,"logPageViews":true,"maxVisibleEditorButtons":3,"editorButtons":[]};
+  ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net/br","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/4c897ada18069934b25b1cdc02cc65a1/variables-8391c84da435c9cfceea2b2b3317ff66.json","url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/4c897ada18069934b25b1cdc02cc65a1/variables-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/new_styles_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-e4ebc469d3.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/default/variables-high_contrast-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/new_styles_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-50b1157940.css"],"current_user_id":"44483","current_user_roles":["user","student"],"current_user_disabled_inbox":false,"files_domain":"cluster57.canvas-user-content.com","DOMAIN_ROOT_ACCOUNT_ID":26140000000000001,"k12":false,"use_responsive_layout":false,"use_rce_enhancements":null,"use_unsplash_image_search":true,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://sequoia.instructure.com","DEEP_LINKING_LOGGING":null,"SETTINGS":{"open_registration":true,"collapse_global_nav":false,"show_feedback_link":true},"current_user":{"id":"44483","display_name":"Tristan Perry","avatar_image_url":"https://sequoia.instructure.com/images/messages/avatar-50.png","html_url":"https://sequoia.instructure.com/about/44483","avatar_is_fallback":true},"page_view_update_url":"/page_views/46df7701-1577-4fb2-8e30-c7412d8e569f?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiNDZkZjc3MDEtMTU3Ny00ZmIyLThlMzAtYzc0MTJkOGU1NjlmIiwidSI6MjYxNDAwMDAwMDAwNDQ0ODMsImMiOiIyMDE5LTA5LTE5VDIwOjEzOjQyLjk2WiJ9.HNsyQxhsiqgxXBK7R6dR0ocps3AHLI3nujFggoxfStI","context_asset_string":null,"TIMEZONE":"America/Los_Angeles","LOCALE":"en","BIGEASY_LOCALE":"en_US","FULLCALENDAR_LOCALE":"en","MOMENT_LOCALE":"en","INCOMPLETE_REGISTRATION":null,"USER_EMAIL":"807981@seq.org","DASHBOARD_SIDEBAR_URL":"https://sequoia.instructure.com/dashboard-sidebar","PREFERENCES":{"dashboard_view":"cards","hide_dashcard_color_overlays":false,"custom_colors":{"course_17526":"#FD5D10","course_17044":"#009606","course_17928":"#E71F63","course_16912":"#0B9BE3","course_17117":"#8F3E97","user_44483":"#5a92de","course_21965":"#4554A4"}},"STUDENT_PLANNER_ENABLED":true,"STUDENT_PLANNER_COURSES":[{"longName":"133300 - Acc Geo/Algebra II - P - 133300 - Acc Geo/Algebra II - P","shortName":"133300 - Acc Geo/Algebra II - P","originalName":"133300 - Acc Geo/Algebra II - P","courseCode":"133300 - Acc Geo/Algebra II - P","assetString":"course_17526","href":"/courses/17526","term":"2019/2020 SUHSD - S1","subtitle":"enrolled as: Student","enrollmentType":"StudentEnrollment","id":"17526","image":"https://instructure-uploads.s3.amazonaws.com/account_26140000000000001/attachments/173066/sequoia%20logo.jpg?response-content-disposition=attachment%3B%20filename%3D%22sequoia%20logo.jpg%22%3B%20filename%2A%3DUTF-8%27%27sequoia%2520logo.jpg\u0026X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAJDW777BLV26JM2MQ%2F20190919%2Fus-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date=20190919T201343Z\u0026X-Amz-Expires=86400\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=41f68e926ce218507782bf674e1b4c9cd54530123f467bcc4b74895c5c342527","position":0},{"longName":"051182 - English I ICAP-P - 051182 - English I ICAP-P","shortName":"051182 - English I ICAP-P","originalName":"051182 - English I ICAP-P","courseCode":"051182 - English I ICAP-P","assetString":"course_16912","href":"/courses/16912","term":"2019/2020 - Q1","subtitle":"enrolled as: Student","enrollmentType":"StudentEnrollment","id":"16912","image":"https://inst-fs-iad-prod.inscloudgate.net/files/49cf47f2-6a23-4c9f-a555-3ccc4e1cb0a5/Sequoia%20Fall%20%281%29.png?download=1\u0026token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1Njg4ODQ0NzcsInVzZXJfaWQiOm51bGwsInJlc291cmNlIjoiL2ZpbGVzLzQ5Y2Y0N2YyLTZhMjMtNGM5Zi1hNTU1LTNjY2M0ZTFjYjBhNS9TZXF1b2lhJTIwRmFsbCUyMCUyODElMjkucG5nIiwiaG9zdCI6bnVsbCwiZXhwIjoxNTY4OTcwODc3fQ.4xO38Bos-3iNcKaOrMMTO_5u_Rkyob8z4AEXq1vHs5cffJLESUDi2SqfLS6xYVhuXvpJUVup-zdheQlcgaYC8A","position":1},{"longName":"076100 - Spanish I-P - 076100 - Spanish I-P","shortName":"076100 - Spanish I-P","originalName":"076100 - Spanish I-P","courseCode":"076100 - Spanish I-P","assetString":"course_17117","href":"/courses/17117","term":"2019/2020 SUHSD - S1","subtitle":"enrolled as: Student","enrollmentType":"StudentEnrollment","id":"17117","image":"https://inst-fs-iad-prod.inscloudgate.net/files/49cf47f2-6a23-4c9f-a555-3ccc4e1cb0a5/Sequoia%20Fall%20%281%29.png?download=1\u0026token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1Njg4ODQ0NzcsInVzZXJfaWQiOm51bGwsInJlc291cmNlIjoiL2ZpbGVzLzQ5Y2Y0N2YyLTZhMjMtNGM5Zi1hNTU1LTNjY2M0ZTFjYjBhNS9TZXF1b2lhJTIwRmFsbCUyMCUyODElMjkucG5nIiwiaG9zdCI6bnVsbCwiZXhwIjoxNTY4OTcwODc3fQ.4xO38Bos-3iNcKaOrMMTO_5u_Rkyob8z4AEXq1vHs5cffJLESUDi2SqfLS6xYVhuXvpJUVup-zdheQlcgaYC8A","position":2},{"longName":"160011 - PE-1 - 160011 - PE-1","shortName":"160011 - PE-1","originalName":"160011 - PE-1","courseCode":"160011 - PE-1","assetString":"course_17044","href":"/courses/17044","term":"2019/2020 - Q1","subtitle":"enrolled as: Student","enrollmentType":"StudentEnrollment","id":"17044","image":"https://inst-fs-iad-prod.inscloudgate.net/files/49cf47f2-6a23-4c9f-a555-3ccc4e1cb0a5/Sequoia%20Fall%20%281%29.png?download=1\u0026token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1Njg4ODQ0NzcsInVzZXJfaWQiOm51bGwsInJlc291cmNlIjoiL2ZpbGVzLzQ5Y2Y0N2YyLTZhMjMtNGM5Zi1hNTU1LTNjY2M0ZTFjYjBhNS9TZXF1b2lhJTIwRmFsbCUyMCUyODElMjkucG5nIiwiaG9zdCI6bnVsbCwiZXhwIjoxNTY4OTcwODc3fQ.4xO38Bos-3iNcKaOrMMTO_5u_Rkyob8z4AEXq1vHs5cffJLESUDi2SqfLS6xYVhuXvpJUVup-zdheQlcgaYC8A","position":3},{"longName":"175000 - Physics-P - 175000 - Physics-P","shortName":"175000 - Physics-P","originalName":"175000 - Physics-P","courseCode":"175000 - Physics-P","assetString":"course_17928","href":"/courses/17928","term":"2019/2020 SUHSD - S1","subtitle":"enrolled as: Student","enrollmentType":"StudentEnrollment","id":"17928","image":"https://inst-fs-iad-prod.inscloudgate.net/files/49cf47f2-6a23-4c9f-a555-3ccc4e1cb0a5/Sequoia%20Fall%20%281%29.png?download=1\u0026token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1Njg4ODQ0NzcsInVzZXJfaWQiOm51bGwsInJlc291cmNlIjoiL2ZpbGVzLzQ5Y2Y0N2YyLTZhMjMtNGM5Zi1hNTU1LTNjY2M0ZTFjYjBhNS9TZXF1b2lhJTIwRmFsbCUyMCUyODElMjkucG5nIiwiaG9zdCI6bnVsbCwiZXhwIjoxNTY4OTcwODc3fQ.4xO38Bos-3iNcKaOrMMTO_5u_Rkyob8z4AEXq1vHs5cffJLESUDi2SqfLS6xYVhuXvpJUVup-zdheQlcgaYC8A","position":4},{"longName":"203000 - Life Skills - 203000 - Life Skills","shortName":"203000 - Life Skills","originalName":"203000 - Life Skills","courseCode":"203000 - Life Skills","assetString":"course_21965","href":"/courses/21965","term":"2019/2020 - Q1","subtitle":"enrolled as: Student","enrollmentType":"StudentEnrollment","id":"21965","image":"https://inst-fs-iad-prod.inscloudgate.net/files/49cf47f2-6a23-4c9f-a555-3ccc4e1cb0a5/Sequoia%20Fall%20%281%29.png?download=1\u0026token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1Njg4ODQ0NzcsInVzZXJfaWQiOm51bGwsInJlc291cmNlIjoiL2ZpbGVzLzQ5Y2Y0N2YyLTZhMjMtNGM5Zi1hNTU1LTNjY2M0ZTFjYjBhNS9TZXF1b2lhJTIwRmFsbCUyMCUyODElMjkucG5nIiwiaG9zdCI6bnVsbCwiZXhwIjoxNTY4OTcwODc3fQ.4xO38Bos-3iNcKaOrMMTO_5u_Rkyob8z4AEXq1vHs5cffJLESUDi2SqfLS6xYVhuXvpJUVup-zdheQlcgaYC8A","position":5}],"STUDENT_PLANNER_GROUPS":[],"notices":[],"TERMS_OF_SERVICE_CUSTOM_CONTENT":"\u003ch3\u003eAGREEMENT BETWEEN YOU AND INSTRUCTURE\u003c/h3\u003e\n\u003cp\u003eLast Updated Date: August 30th, 2016\u003c/p\u003e\n\u003cp\u003ePLEASE READ THIS TERMS OF USE AGREEMENT (THE\u003cspan\u003e \u003c/span\u003e\u003cstrong\u003e“TERMS”\u003c/strong\u003e) CAREFULLY. BY ACCESSING OR USING THIS WEBSITE OR ANY OTHER WEBSITES OF INSTRUCTURE, INC. (\u003cstrong\u003e“INSTRUCTURE”\u003c/strong\u003e) WITH LINKS TO THIS AGREEMENT (COLLECTIVELY, THE\u003cspan\u003e \u003c/span\u003e\u003cstrong\u003e“WEBSITE”\u003c/strong\u003e) IN ANY WAY, INCLUDING USING THE SERVICES ENABLED VIA THE WEBSITE (THE\u003cspan\u003e \u003c/span\u003e\u003cstrong\u003e“SERVICES”\u003c/strong\u003e) BY INSTRUCTURE OR USERS OF THE SITE (\u003cstrong\u003e“USERS”\u003c/strong\u003e), CLICKING THE “I ACCEPT” CHECK BOX, OR MERELY BROWSING THE WEBSITE, YOU REPRESENT THAT YOU HAVE READ, UNDERSTAND, AND AGREE TO BE BOUND BY THE TERMS.\u003cspan\u003e \u003c/span\u003e\u003cstrong\u003eIF YOU DO NOT AGREE TO BE BOUND BY THE TERMS, YOU MAY NOT ACCESS OR USE THIS WEBSITE OR THE SERVICES.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eThe Services include, but are not limited to, a learning management system that entities (\u003cstrong\u003e“ENTITIES”\u003c/strong\u003e) may subscribe to and provide to their instructors and learners (\u003cstrong\u003e“INSTRUCTORS”\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eand\u003cspan\u003e \u003c/span\u003e\u003cstrong\u003e“LEARNERS”\u003c/strong\u003e) in connection with courses (each, a\u003cspan\u003e \u003c/span\u003e\u003cstrong\u003e“COURSE”\u003c/strong\u003e). Instructure provides an account that enables a designated User to manage the Services, manage Learner and Instructor access to the Services, and provide general support on behalf of an Entity. “User” means any user of the Services, including Learners, and Instructors.\u003c/p\u003e\n\u003cp\u003ePLEASE NOTE THAT THE TERMS ARE SUBJECT TO CHANGE BY INSTRUCTURE IN ITS SOLE DISCRETION AT ANY TIME. When changes are made, Instructure will make a new copy of the Terms available at the Website. We will also update the “Last Updated” date at the top of the Terms. If we make any material changes, and you have registered to use the Services, we will also send an e-mail to you at the last e-mail address you provided to us. Any changes to the Terms will be effective immediately for new Users of the Website or Services and will be effective thirty (30) days after posting of notice of such changes on the Website for existing User. Instructure may require you to provide consent to the updated Terms in a specified manner before further use of the Website or the Services is permitted. If you do not agree to any change(s) after receiving a notice of such change(s), you shall stop using the Website and/or the Services. Otherwise, your continued use of the Website and/or the Services constitutes your acceptance of such change(s). PLEASE REGULARLY CHECK THE WEBSITE TO VIEW THE THEN-CURRENT TERMS.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e1. USE OF THE SERVICES AND INSTRUCTURE PROPERTIES.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eThe Website, the Services, and the information and content made available (\u003cstrong\u003e“CONTENT”\u003c/strong\u003e) by Instructure on the Website and in the Services (collectively, the\u003cspan\u003e \u003c/span\u003e\u003cstrong\u003e“INSTRUCTURE PROPERTIES”\u003c/strong\u003e) are protected by copyright laws throughout the world. Subject to the Terms, Instructure grants you a limited license to reproduce portions of the Instructure Properties for the sole purpose of using the Services for your personal purposes or, in the event you are an Instructor, your educational purposes.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e1.1 APPLICATION LICENSE.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eInstructure also provides a mobile application (the\u003cspan\u003e \u003c/span\u003e\u003cstrong\u003e“APPLICATION”\u003c/strong\u003e) for use with the Services. Your use of the Application is governed by the End User License Agreement that accompanies the Application in the marketplace where you download it.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e1.2 CERTAIN RESTRICTIONS.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eThe rights granted to you in the Terms are subject to the following restrictions: (a) you shall not license, sell, rent, lease, transfer, assign, reproduce, distribute, host or otherwise commercially exploit the Instructure Properties, (b) you shall not use framing techniques to enclose any trademark, logo, or other Instructure Properties; (c) you shall not use any metatags or other “hidden text” using Instructure’s name or trademarks; (d) you shall not modify, translate, adapt, merge, make derivative works of, disassemble, decompile, reverse compile or reverse engineer any part of the Instructure Properties except to the extent the foregoing restrictions are expressly prohibited by applicable law; (e) you shall not use any manual or automated software, devices, or other processes (including but not limited to spiders, robots, scrapers, crawlers, avatars, data mining tools, or the like) to “scrape” or download data from any web pages contained in the Website; (f) except as expressly stated herein, no part of the Instructure Properties may be copied, reproduced, distributed, republished, downloaded, displayed, posted or transmitted in any form or by any means; and (g) you shall not remove or destroy any copyright notices or other proprietary markings contained on or in the Instructure Properties. Any future release, update or other addition to the Instructure Properties shall be subject to the Terms. Instructure, its suppliers and service providers reserve all rights not granted in the Terms. Any unauthorized use of the Instructure Properties terminates the licenses granted by Instructure pursuant to the Terms.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2. REGISTRATION.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eIn order to access certain features of the Instructure Properties you must create an account (\u003cstrong\u003e“ACCOUNT”\u003c/strong\u003e) by providing necessary information when registering (\u003cstrong\u003e“REGISTRATION DATA”\u003c/strong\u003e) and accept the Terms.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2.1 REGISTRATION DATA.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eIn registering for the Services, you agree to (1) provide true, current, and complete Registration Data; and (2) maintain and promptly update the Registration Data to keep it true, current, and complete. You are responsible for all activities that occur under your Account. You may not share your Account or password with anyone, and you agree to notify Instructure immediately of any unauthorized use of your password or any other breach of security. You agree not to create or access an Account using a false identity or information, or on behalf of someone other than yourself. You agree that you shall not have more than one Account at any given time. You agree not to create an Account or use the Instructure Properties if you have been previously removed by Instructure, or if you have been previously banned from any of the Instructure Properties.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2.2 NECESSARY EQUIPMENT AND SOFTWARE.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYou must provide all equipment and software necessary to connect to the Instructure Properties, including but not limited to, a mobile device that is suitable to connect with and use the Application. You are solely responsible for any fees, including Internet connection or mobile fees, that you incur when accessing the Instructure Properties.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3. RESPONSIBILITY FOR CONTENT.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3.1 TYPES OF CONTENT.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYou acknowledge that all Content, including the Instructure Properties, is the sole responsibility of the party from whom such Content originated. This means that you, and not Instructure, are entirely responsible for all Content that you upload, post, e-mail, transmit or otherwise make available (\u003cstrong\u003e“MAKE AVAILABLE”\u003c/strong\u003e) through the Instructure Properties (\u003cstrong\u003e“YOUR CONTENT”\u003c/strong\u003e). Other Users of the Instructure Properties, and not Instructure, are similarly responsible for all Content such other Users Make Available through the Instructure Properties (\u003cstrong\u003e“USER CONTENT”\u003c/strong\u003e).\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3.2 NO OBLIGATION TO PRE-SCREEN CONTENT.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYou acknowledge that Instructure has no obligation to pre-screen Content (including, but not limited to, Your Content and User Content), although Instructure reserves the right in its sole discretion to pre-screen, refuse, or remove any Content that (1) violates any law or regulation, (2) violates these Terms, including the User Code of Conduct set forth in Section 4.4 hereof, and/or (3) otherwise creates liability for Instructure.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4. OWNERSHIP.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4.1 INSTRUCTURE PROPERTIES.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eExcept with respect to Your Content and User Content, you agree that Instructure and its suppliers own all rights, title and interest in the Instructure Properties. Instructure’s name and other related graphics, logos, service marks and trade names used on or in connection with the Instructure Properties are the trademarks of Instructure and may not be used without permission in connection with any third-party products or services. Other trademarks, service marks and trade names that may appear on or in the Instructure Properties are the property of their respective owners.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4.2 YOUR CONTENT.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYour Content shall at all times remain your sole property and you agree that you have no right, title or interest in or to any other Content that appears on or in the Instructure Properties. You represent that you have all necessary right, power and authority to post Your Content to the Instructure Properties. You agree to allow Instructure and its applicable contractors to freely host, reproduce, transmit, modify, display and otherwise use Your Content (in whole or in part) as reasonably necessary to provide the Services to you, and in accordance with Instructure’s agreement with your Entity, if applicable.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4.3 YOUR ACCOUNT.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eNotwithstanding anything contained herein to the contrary, by submitting Your Content to any forums, comments or any other area on or in the Instructure Properties, you hereby expressly permit Instructure to identify you by your username as the contributor of Your Content in any publication in any form, media, or technology now known or later developed in connection with Your Content.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4.4 USER CODE OF CONDUCT.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eAs a condition of use, you agree not to use the Instructure Properties for any purpose that is prohibited by the Terms or by applicable law. Do not post, or permit others to post, content on the Instructure Properties or on your profile that (i) encourages illegal activities, is fraudulent, or is unlawful; (ii) insults, defames, harasses, or threatens others; (iii) violates the copyright or intellectual property or privacy rights of others; (iv) contains obscene, vulgar, pornographic, or libelous material; (v) harms or impersonates others, including other Users; or (vi) advertises or sells a product or service. Do not reproduce content from your Course or other Learners unless allowed by the express copyright terms laid out by the Instructor (e.g. Creative Commons). Do not share the solutions to assignments with others unless this is expressly authorized by the Instructor. Do not submit the work of others as your own work. Respect the privacy of other Users. Respect the diversity of opinions and cultures that will be presented by other Users. Do not attempt or engage in, any potentially harmful acts that are directed against the Instructure Properties, including but not limited to violating or attempting to violate any security features of the Instructure Properties, introducing viruses, worms, or similar harmful code into the Instructure Properties, or interfering or attempting to interfere with use of the Instructure Properties by any other user, host or network, including by means of overloading, “flooding,” “spamming,” “mail bombing,” or “crashing” the Instructure Properties. If you believe that someone has violated this code of conduct, begin by notifying the Instructor of the Course. If the issue is not addressed by the Instructor to your satisfaction, contact\u003cspan\u003e \u003c/span\u003e\u003ca href=\"mailto:conduct@canvas.net\" target=\"_blank\"\u003econduct@canvas.net\u003c/a\u003e\u003cspan\u003e \u003c/span\u003ewith your concerns.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4.5 FEEDBACK.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYou agree that submission of any ideas, suggestions, documents, and/or proposals to Instructure through its suggestion, feedback, wiki, forum or similar pages (\u003cstrong\u003e“FEEDBACK”\u003c/strong\u003e) is at your own risk and that Instructure has no obligations (including without limitation obligations of confidentiality) with respect to such Feedback. You represent and warrant that you have all rights necessary to submit the Feedback. You hereby grant to Instructure a fully paid, royalty-free, perpetual, irrevocable, worldwide, non-exclusive, and fully sublicensable right and license to use, reproduce, perform, display, distribute, adapt, modify, re-format, create derivative works of, and otherwise commercially or non-commercially exploit in any manner, any and all Feedback, and to sublicense the foregoing rights, in connection with the operation and maintenance of the Instructure Properties.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e5. INVESTIGATIONS.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eInstructure may, but is not obligated to, monitor or review the Instructure Properties and Content at any time. Without limiting the foregoing, Instructure shall have the right, in its sole discretion, to remove any of Your Content for any reason (or no reason), including if such Content violates the Terms or any applicable law. Although Instructure does not generally monitor user activity occurring in connection with the Instructure Properties, if Instructure becomes aware of any possible violations by you of any provision of the Terms, Instructure reserves the right to investigate such violations, and Instructure may, at its sole discretion, terminate your license to use the Instructure Properties, or change, alter or remove Your Content, in whole or in part.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e6. INTERACTIONS WITH OTHER USERS.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e6.1 USER RESPONSIBILITY.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYou are solely responsible for your interactions with other Users of the Services and any other parties with whom you interact through the Services; provided, however, that Instructure reserves the right, but has no obligation, to intercede in disputes among Users. You agree that Instructure will not be responsible for any liabilities incurred as the result of such interaction.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e6.2 CONTENT PROVIDED BY OTHER USERS.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eThe Instructure Properties may contain User Content provided by other Users. Instructure is not responsible for and does not control User Content. Instructure has no obligation to review or monitor, and does not approve, endorse or make any representations or warranties with respect to User Content. You use all User Content and interact with other Users at your own risk.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e7. THIRD-PARTY WEBSITES.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e7.1 THIRD-PARTY WEBSITES.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eThe Instructure Properties may contain links to third-party websites (\u003cstrong\u003e“THIRD-PARTY WEBSITES”\u003c/strong\u003e). When you click on a link to a Third-Party Website, we will not warn you that you have left the Instructure Properties and are subject to separate terms and conditions or privacy policies. Such Third-Party Websites are not under the control of Instructure. Instructure is not responsible for any Third-Party Websites and does not review, approve, monitor, endorse, warrant, or make any representations with respect to Third-Party Websites, or their products or services. You use all links in Third-Party Websites at your own risk. You should review applicable terms and policies, including privacy and data gathering practices, of any Third-Party Websites, and should make whatever investigation you feel necessary or appropriate before proceeding with any transaction with any third-party.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e7.2 APP STORES.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYou acknowledge and agree that the availability of the Application and the Services is dependent on the third-party from which you received the Application, e.g., the Apple or Android app stores.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e8. INDEMNIFICATION.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYou agree to indemnify, defend, and hold Instructure, its parents, subsidiaries, affiliates, officers, employees, agents, partners and licensors (collectively the\u003cspan\u003e \u003c/span\u003e\u003cstrong\u003e“INSTRUCTURE PARTIES”\u003c/strong\u003e) harmless from any losses, costs, liabilities and expenses (including reasonable attorneys’ fees) relating to or arising out of: (a) Your Content; (b) your use of, or inability to use, the Instructure Properties; (c) your violation of the Terms; (d) your violation of any rights of another party, including any User; or (e) your violation of any applicable laws, rules or regulations. Instructure reserves the right, at its own cost, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will fully cooperate with Instructure in asserting any available defenses. You agree that the provisions in this section will survive any termination of your Account, the Terms, or your access to the Instructure Properties.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e9. DISCLAIMER OF WARRANTIES.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYOU EXPRESSLY UNDERSTAND AND AGREE THAT TO THE EXTENT PERMITTED BY APPLICABLE LAW, YOUR USE OF THE INSTRUCTURE PROPERTIES IS AT YOUR SOLE RISK, AND THE INSTRUCTURE PROPERTIES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS, WITH ALL FAULTS. INSTRUCTURE PARTIES EXPRESSLY DISCLAIM ALL WARRANTIES, REPRESENTATIONS, AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. INSTRUCTURE PARTIES MAKE NO WARRANTY, REPRESENTATION OR CONDITION THAT: (1) THE INSTRUCTURE PROPERTIES WILL MEET YOUR REQUIREMENTS; (2) YOUR USE OF THE INSTRUCTURE PROPERTIES WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE; (3) THE RESULTS THAT MAY BE OBTAINED FROM USE OF THE INSTRUCTURE PROPERTIES WILL BE ACCURATE OR RELIABLE; OR (4) ANY ERRORS IN THE INSTRUCTURE PROPERTIES WILL BE CORRECTED. ANY CONTENT DOWNLOADED FROM OR OTHERWISE ACCESSED THROUGH THE INSTRUCTURE PROPERTIES IS ACCESSED AT YOUR OWN RISK, AND YOU SHALL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR PROPERTY OR PERSON, INCLUDING, BUT NOT LIMITED TO, YOUR COMPUTER SYSTEM AND ANY DEVICE YOU USE TO ACCESS THE INSTRUCTURE PROPERTIES, OR ANY OTHER LOSS THAT RESULTS FROM ACCESSING SUCH CONTENT. THE SERVICES MAY BE SUBJECT TO DELAYS, CANCELLATIONS AND OTHER DISRUPTIONS. INSTRUCTURE MAKES NO WARRANTY, REPRESENTATION OR CONDITION WITH RESPECT TO THE SERVICES, INCLUDING BUT NOT LIMITED TO, THE QUALITY, EFFECTIVENESS, REPUTATION AND OTHER CHARACTERISTICS OF THE SERVICES. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED FROM INSTRUCTURE OR THROUGH THE INSTRUCTURE PROPERTIES WILL CREATE ANY WARRANTY NOT EXPRESSLY MADE HEREIN.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e10. LIMITATION OF LIABILITY.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e10.1 DISCLAIMER OF CERTAIN DAMAGES.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYOU UNDERSTAND AND AGREE THAT IN NO EVENT SHALL INSTRUCTURE PARTIES BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE INSTRUCTURE PROPERTIES, INCLUDING, WITHOUT LIMITATION, ANY DAMAGES RESULTING FROM LOSS OF USE, DATA, OR PROFITS, WHETHER OR NOT INSTRUCTURE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR FOR ANY DAMAGES FOR PERSONAL OR BODILY INJURY OR EMOTIONAL DISTRESS ARISING OUT OF OR IN CONNECTION WITH THE TERMS, OR FROM ANY COMMUNICATIONS, INTERACTIONS OR MEETINGS WITH OTHER USERS OF THE INSTRUCTURE PROPERTIES, ON ANY THEORY OF LIABILITY, RESULTING FROM: (1) THE USE OR INABILITY TO USE THE INSTRUCTURE PROPERTIES; (2) THE COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES RESULTING FROM ANY GOODS, DATA, INFORMATION OR SERVICES PURCHASED OR OBTAINED OR MESSAGES RECEIVED FOR TRANSACTIONS ENTERED INTO THROUGH THE INSTRUCTURE PROPERTIES; (3) UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA; (4) STATEMENTS OR CONDUCT OF ANY THIRD-PARTY ON INSTRUCTURE PROPERTIES; OR (5) ANY OTHER MATTER RELATED TO THE INSTRUCTURE PROPERTIES, WHETHER BASED ON WARRANTY, COPYRIGHT, CONTRACT, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR ANY OTHER LEGAL THEORY.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e10.2 CAP ON LIABILITY.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eUNDER NO CIRCUMSTANCES WILL INSTRUCTURE PARTIES BE LIABLE TO YOU FOR MORE THAN THE ANY AMOUNTS RECEIVED BY INSTRUCTURE AS A RESULT OF YOUR USE OF THE INSTRUCTURE PROPERTIES IN THE 12 MONTHS PRECEDING YOUR CLAIM. IF YOU HAVE NOT PAID INSTRUCTURE ANY AMOUNTS IN THE 12 MONTHS PRECEDING YOUR CLAIM, INSTRUCTURE’S SOLE AND EXCLUSIVE LIABILITY SHALL BE FIFTY DOLLARS ($50).\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e10.3 USER CONTENT.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eINSTRUCTURE PARTIES ASSUME NO RESPONSIBILITY FOR THE TIMELINESS, DELETION, MIS-DELIVERY OR FAILURE TO STORE ANY CONTENT (INCLUDING, BUT NOT LIMITED TO, YOUR CONTENT AND USER CONTENT), USER COMMUNICATIONS OR PERSONALIZATION SETTINGS.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e10.4 NO LIABILITY FOR CONDUCT OF THIRD PARTIES OR OTHER USERS.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYOU ACKNOWLEDGE AND AGREE THAT INSTRUCTURE PARTIES ARE NOT LIABLE, AND YOU AGREE NOT TO SEEK TO HOLD INSTRUCTURE PARTIES LIABLE, FOR THE CONDUCT OF THIRD PARTIES, INCLUDING OPERATORS OF EXTERNAL SITES, AND THAT THE RISK OF INJURY FROM SUCH THIRD PARTIES RESTS ENTIRELY WITH YOU. YOU ARE SOLELY RESPONSIBLE FOR ALL OF YOUR COMMUNICATIONS AND INTERACTIONS WITH OTHER USERS OF THE INSTRUCTURE PROPERTIES. YOU UNDERSTAND THAT INSTRUCTURE DOES NOT MAKE ANY ATTEMPT TO VERIFY THE STATEMENTS OF USERS OF THE INSTRUCTURE PROPERTIES.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e10.5 BASIS OF THE BARGAIN.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eTHE LIMITATIONS OF DAMAGES SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN INSTRUCTURE AND YOU.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e11. PROCEDURE FOR MAKING CLAIMS OF COPYRIGHT INFRINGEMENT.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eIt is Instructure’s policy to terminate membership privileges of any User who repeatedly infringes copyright upon prompt notification to Instructure by the copyright owner or the copyright owner’s legal agent. Without limiting the foregoing, if you believe that your work has been copied and posted on the Instructure Properties in a way that constitutes copyright infringement, please provide our Copyright Agent with the following information: (1) an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; (2) a description of the copyrighted work that you claim has been infringed; (3) a description of the location on the Instructure Properties of the material that you claim is infringing; (4) your address, telephone number and e-mail address; (5) a written statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent or the law; (6) a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner’s behalf. Contact information for Instructure’s Copyright Agent for notice of claims of copyright infringement is as follows: Howard Baik; 6330 South 3000 East, Suite 700, Salt Lake City, UT 84121;\u003cspan\u003e \u003c/span\u003e\u003ca href=\"mailto:legal@instructure.com\" target=\"_blank\"\u003elegal@instructure.com\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e12. TERM AND TERMINATION.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e12.1 TERM.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eThe Terms commence on the date when you accept them (as described in the preamble above) and remain in full force and effect while you use the Instructure Properties, unless terminated earlier in accordance with the Terms.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e12.2 TERMINATION OF SERVICES BY INSTRUCTURE.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eIf you have breached any provision of the Terms, or if Instructure is required to do so by law (e.g., where the provision of the Website, the Application, or the Services is, or becomes, unlawful), Instructure has the right to suspend or terminate any Services provided to you or to delete any of Your Content. You agree that all terminations for cause shall be made in Instructure’s sole discretion and that Instructure shall not be liable to you or any third-party for any termination of your Account. Termination of any Service includes removal of access to such Service and barring of further use of the Service. Termination of all Services also may include deletion of your password and all related information, files and Content associated with or inside your Account (or any part thereof), including Your Content. Upon termination of any Service, your right to use such Service will automatically terminate immediately. Instructure will not have any liability whatsoever to you for any suspension or termination, including for deletion of Your Content. All provisions of the Terms which by their nature should survive, shall survive termination of Services, including without limitation, ownership provisions, warranty disclaimers, and limitation of liability.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13. GENERAL PROVISIONS.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.1 ELECTRONIC COMMUNICATIONS.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eThe communications between you and Instructure use electronic means, whether you visit the Instructure Properties or send Instructure e-mails, or whether Instructure posts notices on the Instructure Properties or communicates with you via e-mail. For contractual purposes, you (1) consent to receive communications from Instructure in an electronic form; and (2) agree that all terms and conditions, agreements, notices, disclosures, and other communications that Instructure provides to you electronically satisfy any legal requirement that such communications would satisfy if it were to be in writing. The foregoing does not affect any statutory rights you may have.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.2 RELEASE.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eYou hereby release Instructure Parties and their successors from claims, demands, any and all losses, damages, rights, and actions of any kind, including personal injuries, death, and property damage, that is either directly or indirectly related to or arises from any interactions with or conduct of other Website Users or third-party websites of any kind arising in connection with or as a result of the Terms or your use of the Instructure Properties. If you are a California resident, you hereby waive California Civil Code Section 1542, which states, “A general release does not extend to claims which the creditor does not know or suspect to exist in his favor at the time of executing the release, which, if known by him must have materially affected his settlement with the debtor.”\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.3 ASSIGNMENT.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eThe Terms, and your rights and obligations hereunder, may not be assigned, subcontracted, delegated, or otherwise transferred by you without Instructure’s prior written consent, and any attempted assignment, subcontract, delegation, or transfer in violation of the foregoing will be null and void. Instructure may assign its rights and obligations under these Terms to a third party without your consent.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.4 FORCE MAJEURE.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eInstructure shall not be liable for any delay or failure to perform resulting from causes outside its reasonable control, including, but not limited to, acts of God, war, terrorism, riots, embargos, acts of civil or military authorities, fire, floods, accidents, strikes or shortages of transportation facilities, fuel, energy, labor or materials.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.5 COMPLIANCE.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eIf you believe that Instructure has not adhered to the Terms, please contact Instructure by emailing us at\u003cspan\u003e \u003c/span\u003e\u003ca href=\"mailto:legal@instructure.com\" target=\"_blank\"\u003elegal@instructure.com\u003c/a\u003e. We will do our best to address your concerns. If you feel that your complaint has been addressed incompletely, we invite you to let us know for further investigation.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.6 GOVERNING LAW; JURISDICTION.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eUnless otherwise required by applicable law, the Terms and any action related thereto will be governed and interpreted by and under the laws of the State of Utah, without giving effect to any conflicts of law principles that provide for the application of the law of another jurisdiction. The United Nations Convention on Contracts for the International Sale of Goods does not apply to the Terms. Any claim, dispute, or action arising, directly or indirectly, to the Terms shall be litigated in the state or federal courts located in Salt Lake County, Utah and the parties hereto agree to submit to the personal jurisdiction of such courts.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.7 NOTICE.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eWhere Instructure requires that you provide an e-mail address to access certain features of the Instructure Properties, you are responsible for providing Instructure with your most current e-mail address. In the event that the last e-mail address you provided to Instructure is not valid, or for any reason is not capable of delivering to you any notices required/ permitted by the Terms, Instructure’s dispatch of the e-mail containing such notice will nonetheless constitute effective notice. You may give notice to Instructure at the following address: Attn: Legal Department, 6330 South 3000 East, Suite 700, Salt Lake City, UT 84121. Such notice shall be deemed given when received by Instructure by letter delivered by nationally recognized overnight delivery service or first class postage prepaid mail at the above address.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.8 WAIVER.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eAny waiver or failure by Instructure to enforce any provision of the Terms on one occasion will not be deemed a waiver of any other provision or of such provision on any other occasion.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.9 SEVERABILITY.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eIf any provision of the Terms is, for any reason, held to be invalid or unenforceable, the other provisions of the Terms will remain enforceable, and the invalid or unenforceable provision will be deemed modified so that it is valid and enforceable to the maximum extent permitted by law.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e13.10 ENTIRE AGREEMENT.\u003c/strong\u003e\u003cspan\u003e \u003c/span\u003eThe Terms are the final, complete and exclusive agreement of the parties with respect to the subject matter hereof and supersedes and merges all prior discussions between the parties with respect to such subject matter.\u003c/p\u003e\n\u003cp\u003eThese terms of use govern unless your institution has negotiated a set of terms of use with Instructure. Please check with your institution if there are any questions.\u003c/p\u003e\n","active_context_tab":null};
+</script>
+
+<link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/0-c-4c309269f3.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/14-c-6ce11bbc3a.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/18-c-8b4c61ddf6.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/23-c-ec01360937.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/terms_of_service_modal-c-97724aec54.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('terms_of_service_modal');
+//]]>
+</script>
+
+
+</div> <!-- #application -->
+</body>
+</html>
